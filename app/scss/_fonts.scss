@@ -8,6 +8,15 @@
 }
 
 @font-face {
+	font-family: 'Open Sans', sans-serif;
+	src: url('../fonts/OpenSansSemiBold.woff2') format('woff2'),
+		url('../fonts/OpenSansSemiBold.woff') format('woff');
+	font-display: swap;
+	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face {
 	font-family: 'Montserrat', sans-serif;
 	src: url('../fonts/MontserratExtraBold.woff2') format('woff2'),
 		url('../fonts/MontserratExtraBold.woff') format('woff');
