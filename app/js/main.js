@@ -8,4 +8,12 @@ $(function () {
 		$('.rightside-menu').addClass('rightside-menu--close');
 	});
 
+	//top slider  // slick-slider
+	$('.top__slider').slick({
+		arrows: false,
+		dots: true,
+		fade: true,
+		autoplay: true
+	});
+
 })
