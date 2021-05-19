@@ -32,6 +32,12 @@ body{
   padding: 0 15px;
 }
 
+.container-fluid{
+	max-width: 1920px;
+	margin: 0 auto;
+	padding: 10px;
+} // для контента на весь экран с отступами по бокам
+
 .slick-dots{
 	display: flex;
 	justify-content: center;
