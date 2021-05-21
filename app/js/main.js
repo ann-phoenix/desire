@@ -17,11 +17,13 @@ $(function () {
 	});
 
 	//gallery // MixItUp
-
 	var mixer = mixitup('.gallery__inner', {
 		load: {
 			filter: '.living',
 		}
 	});
+
+	//about-popup  //fancybox3
+	
 
 })
