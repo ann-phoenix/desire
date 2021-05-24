@@ -30,7 +30,7 @@
           <nav class="menu">
             <ul class="menu__list">
               <li class="menu__list-item">
-                <a class="menu__list-link" href="#">Блог</a>
+                <a class="menu__list-link menu__list-link--active" href="#">Блог</a>
               </li>
               <li class="menu__list-item">
                 <a class="menu__list-link" href="#">Контакты</a>
@@ -48,11 +48,9 @@
               <a class="rightside-menu__logo" href="#">
                 <img src="images/logo-big.png" alt="logo big">
               </a>
-              <h2 class="rightside-menu__title">Оптимальная мебель
-              </h2>
+              <h2 class="rightside-menu__title">Оптимальная мебель </h2>
               <p class="rightside-menu__text"> Основной акцент в своей продукции мы уделяем дизайну, качеству и
-              удобству. 
-              </p>
+                удобству. </p>
               <img class="rightside-menu__images" src="images/rightside-img.jpg" alt="images">
             </div>
           </div>
@@ -68,11 +66,98 @@
               <a class="breadcrumbs__link" href="#">Главная</a>
             </li>
             <li class="breadcrumbs__item">
-              <a class="breadcrumbs__link" href="#">О нас</a>
+              <a class="breadcrumbs__link" href="#">Блог</a>
             </li>
           </ul>
         </div>
       </div>
+      <!--blog-->
+      <section class="blog">
+        <div class="container">
+          <div class="blog__inner">
+            <div class="blog__items"></div>
+            <aside class="aside">
+              <form class="aside-search">
+                <input class="aside-search__input" type="text" placeholder="Поиск">
+                <button class="aside-search__btn" type="submit">
+                  <img src="images/search.svg" alt="">
+                </button>
+              </form>
+              <div class="aside-category">
+                <h5 class="aside-category__title">Категории</h5>
+                <ul class="aside-category__list">
+                  <li class="aside-category__item">
+                    <a class="aside-category__link" href="#">Столовая(5)</a>
+                  </li>
+                  <li class="aside-category__item">
+                    <a class="aside-category__link" href="#">Офис(2)</a>
+                  </li>
+                  <li class="aside-category__item">
+                    <a class="aside-category__link" href="#">Спальня(7)</a>
+                  </li>
+                  <li class="aside-category__item">
+                    <a class="aside-category__link" href="#">Гостиная(12)</a>
+                  </li>
+                  <li class="aside-category__item">
+                    <a class="aside-category__link" href="#">Дизайн(20)</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="recent-posts">
+                <h5 class="recent-posts__title">Последние посты</h5>
+                <ul class="recent-posts__list">
+                  <li class="recent-posts__item">
+                    <a class="recent-posts__link-title" href="#"> Выбор цветовой гаммы при создании дизайна интерьера
+                      <span class="recent-posts__date">20/04/21</span> | <a class="recent-posts__author" href="#"> Анна
+                        Миллер </a>
+                  </li>
+                  <li class="recent-posts__item">
+                    <a class="recent-posts__link-title" href="#"> Диваны в стиле модерн, вкус современной жизни <span
+                        class="recent-posts__date">08/03/21</span> | <a class="recent-posts__author" href="#"> Сергей
+                        Морозов </a>
+                  </li>
+                  <li class="recent-posts__item">
+                    <a class="recent-posts__link-title" href="#"> Спальня как комната для релакса <span
+                        class="recent-posts__date">25/02/21</span> | <a class="recent-posts__author" href="#"> Ксения
+                        Степанова </a>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div class="blog__tags">
+                <h5 class="blog__tags-title">Теги</h5>
+                <a class="blog__tags-link" href="#">Стулья</a>
+                <a class="blog__tags-link" href="#">Столы</a>
+                <a class="blog__tags-link" href="#">Столовая</a>
+                <a class="blog__tags-link" href="#">Гостиная</a>
+                <a class="blog__tags-link" href="#">Кабинет</a>
+              </div>
+              <ul class="blog__social">
+                <li class="blog__item">
+                  <a class="blog__item-link" href="#">
+                    <img class="blog__item-img" src="images/facebook.svg" alt="facebook">
+                  </a>
+                </li>
+                <li class="blog__item">
+                  <a class="blog__item-link" href="#">
+                    <img class="blog__item-img" src="images/instagram.svg" alt="instagram">
+                  </a>
+                </li>
+                <li class="blog__item">
+                  <a class="blog__item-link" href="#">
+                    <img class="blog__item-img" src="images/whatsapp.svg" alt="whatsapp">
+                  </a>
+                </li>
+                <li class="blog__item">
+                  <a class="blog__item-link" href="#">
+                    <img class="blog__item-img" src="images/youtube.svg" alt="youtube">
+                  </a>
+                </li>
+              </ul>
+            </aside>
+          </div>
+        </div>
+      </section>
     </main>
     <!--footer-->
     <footer class="footer">
