@@ -16,13 +16,17 @@ $(function () {
 		autoplay: true
 	});
 
+	$('.contact-slider').slick({
+		slidesToShow: 10,
+		slidesToScroll: 10,
+		arrows: false,
+		dots: true,
+	});
+
 	//gallery // MixItUp
 	var mixer = mixitup('.gallery__inner', {
 		load: {
 			filter: '.living',
 		}
-	});
-
-	//about-popup  //fancybox3
-	
+	});	
 })
