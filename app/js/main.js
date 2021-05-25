@@ -16,11 +16,20 @@ $(function () {
 		autoplay: true
 	});
 
+	//contact slider  // slick-slider
 	$('.contact-slider').slick({
 		slidesToShow: 10,
 		slidesToScroll: 10,
 		arrows: false,
 		dots: true,
+	});
+
+	//blog slider  // slick-slider
+	$('.article-slider__box').slick({
+		prevArrow: '<button type="button" class="article-slider__arrow article-slider-arrowleft"><img src="images/arrow-back.svg" alt="arrow back"></button>',
+		nextArrow: '<button type="button" class="article-slider__arrow article-slider-arrowright"><img src="images/arrow-next.svg" alt="arrow next"></button>',
+		slideToShow: 1,
+		slidesToScroll: 1,
 	});
 
 	//gallery // MixItUp
